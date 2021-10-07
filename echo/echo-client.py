@@ -1,5 +1,3 @@
-#!/home/saais/conda/envs/pynet/bin/python3
-
 import socket
 
 HOST = "localhost"

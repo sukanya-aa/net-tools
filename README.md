@@ -28,7 +28,7 @@ Yayyy!! You are ready to go.
 
 * This was just a simple fun experiment.
 * Run the server in first in one terminal and run the client in a different terminal.
-* You can alternatively use this is to keep a port open in your host, and run scripts with incoming data.
+* You can alternatively use this is to keep a port open in your host, and run scripts with incoming data, as of now all it does is echo back whatever you send it.
 * You can also connect via netcat.
 
     nc localhost <port_specified>
@@ -48,3 +48,10 @@ packets.
     * multiprocessing
     * os
 * You can use the scanner alternatively as a CLI tool also, but with minimal funcationality.
+
+# Chat App
+
+* A simple python chat app that uses, socket and threading modules of python to work.
+* The server has to be started first.
+* The Chat App runs each client on a seperate thread.
+* Use `disconnect` to disconnect the client.
