@@ -54,4 +54,4 @@ packets.
 * A simple python chat app that uses, socket and threading modules of python to work.
 * The server has to be started first.
 * The Chat App runs each client on a seperate thread.
-* Use `disconnect` to disconnect the client.
+* Use `!disconnect` to disconnect the client.
